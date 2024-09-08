@@ -1,0 +1,41 @@
+:root {
+    /* 色管理用の変数 */
+    --black-color: #333;
+    --primary-color: #00afa8;
+    --secondary-color: #63d297;
+    --gray-color: hsl(220, 9%, 87%);
+}
+
+/* ---------- base ---------- */
+body {
+    color: var(--black-color);
+    font-size: 24px;
+    font-family: "Noto Sans JP", sans-serif;
+    line-height: 1.75;
+}
+
+.headerfont {
+    font-size: 6rem;
+    line-height: 1.2;
+    margin-left: 20%;
+    font-weight: bold;
+}
+
+.content-container {
+    border-radius: 120px 120px 0px 0px;
+    margin-top: -7rem;
+}
+
+.keyconcept {
+    background-color: #89cff3;
+}
+
+.mywork {
+    background-color: #a0e9ff;
+}
+
+.content-title {
+    padding-top: 8rem;
+    font-weight: bold;
+    font-size: 3rem;
+}
