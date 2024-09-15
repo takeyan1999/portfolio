@@ -24,6 +24,7 @@ body {
 .content-container {
     border-radius: 120px 120px 0px 0px;
     margin-top: -7rem;
+    padding-bottom: 13rem;
 }
 
 .keyconcept {
@@ -38,4 +39,11 @@ body {
     padding-top: 8rem;
     font-weight: bold;
     font-size: 3rem;
+    color: #414141;
+    margin-bottom: 7rem;
+}
+
+footer {
+    background-color: #414141;
+    color: white;
 }
