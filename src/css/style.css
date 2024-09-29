@@ -31,6 +31,10 @@ body {
     background-color: #89cff3;
 }
 
+.concept-content {
+    font-size: 5rem;
+}
+
 .mywork {
     background-color: #a0e9ff;
 }
@@ -40,10 +44,33 @@ body {
     font-weight: bold;
     font-size: 3rem;
     color: #414141;
-    margin-bottom: 7rem;
+    margin-bottom: 4rem;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.content-text {
+    font-size: 4rem;
+    font-weight: bold;
 }
 
 footer {
     background-color: #414141;
     color: white;
+}
+
+.fotter-content {
+    font-size: 3rem;
+    line-height: 3rem;
+}
+
+.picturebox {
+    width: 60%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    margin: auto;
+    background-color: #00afa8;
 }
