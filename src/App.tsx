@@ -12,6 +12,7 @@ import "./css/style.css";
 import Topimg from "./img/top.jpg";
 import quizapp from "./img/quizapp.png";
 import image from "./img/image.jpeg";
+import Yajirushi from "./img/yajirusi.png";
 
 const App = () => {
     const works = [
@@ -19,6 +20,15 @@ const App = () => {
         { id: "quiz-app", url: "quizapp.com", picture: quizapp },
         { id: "quiz-app", url: "quizapp.com", picture: quizapp },
     ];
+
+    const Swipe = () => {
+        return (
+            <div className="d-flex justify-content-center">
+                <img src={Yajirushi} style={{ width: 100, height: 100 }} className="yajirushi" />
+                <span className="yajirushifont">スワイプ！</span>
+            </div>
+        );
+    };
 
     return (
         <>
@@ -70,6 +80,7 @@ const App = () => {
                     </section>
 
                     <section className="section content-container keyconcept text-center" id="concept">
+                        <Swipe />
                         <p className="content-title">KEY CONCEPT</p>
                         <div className="concept-content">
                             <p>目の前の人にワクワクを</p>
@@ -77,7 +88,9 @@ const App = () => {
                         </div>
                     </section>
                     <section className="section content-container mywork text-center" id="works">
+                        <Swipe />
                         <p className="content-title">MY WORK</p>
+
                         <Container className="">
                             <Row>
                                 {works.map(({ id, url, picture }) => {
@@ -87,6 +100,7 @@ const App = () => {
                         </Container>
                     </section>
                     <section className="section content-container keyconcept text-center" id="about">
+                        <Swipe />
                         <p className="content-title">ABOUT ME</p>
                         <Container>
                             <Row>

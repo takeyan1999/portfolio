@@ -26,6 +26,15 @@ body {
     height: 100vh;
 }
 
+.yajirushi {
+    position: relative;
+    top: -20px;
+}
+
+.yajirushifont {
+    font-family: "Zen Kurenaido";
+}
+
 .headerfont {
     font-size: 6rem;
     line-height: 1.2;
@@ -52,7 +61,7 @@ body {
 }
 
 .content-title {
-    padding-top: 8rem;
+    padding-top: 2rem;
     font-weight: bold;
     font-size: 3rem;
     color: #414141;
